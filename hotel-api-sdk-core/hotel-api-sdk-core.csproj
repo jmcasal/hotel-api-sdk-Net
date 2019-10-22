@@ -3,6 +3,9 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
     <RootNamespace>hotel_api_sdk_core</RootNamespace>
+    <Version>0.1.0</Version>
+    <Description>port to .netcore of the hotelbeds api hotel-api-sdk</Description>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
