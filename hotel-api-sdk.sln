@@ -1,13 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.757
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hotel-api-sdk", "hotel-api-sdk\hotel-api-sdk.csproj", "{DE77A336-0BF0-45F0-8A62-AE7FE2B2061C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hotel-api-sdk-demo", "hotel-api-sdk-demo\hotel-api-sdk-demo.csproj", "{FE11C338-BAD6-4BCC-920D-0814F441DDA2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hotel-api-model", "hotel-api-model\hotel-api-model.csproj", "{48E1FAD2-D25E-4276-BFAF-6EB31C5A5CB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hotel-api-model-core", "ClassLibrary1\hotel-api-model-core.csproj", "{0F247482-A4A8-4CEA-BF5D-D1D333E2C87B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hotel-api-sdk-core", "hotel-api-sdk-core\hotel-api-sdk-core.csproj", "{FF39368D-86A4-4100-A42A-5343F7392DE6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,8 +73,43 @@ Global
 		{48E1FAD2-D25E-4276-BFAF-6EB31C5A5CB3}.Release-x64|Any CPU.Build.0 = Release|Any CPU
 		{48E1FAD2-D25E-4276-BFAF-6EB31C5A5CB3}.Release-x64|x64.ActiveCfg = Release|Any CPU
 		{48E1FAD2-D25E-4276-BFAF-6EB31C5A5CB3}.Release-x64|x64.Build.0 = Release|Any CPU
+		{0F247482-A4A8-4CEA-BF5D-D1D333E2C87B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F247482-A4A8-4CEA-BF5D-D1D333E2C87B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F247482-A4A8-4CEA-BF5D-D1D333E2C87B}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{0F247482-A4A8-4CEA-BF5D-D1D333E2C87B}.Debug|x64.Build.0 = Debug|Any CPU
+		{0F247482-A4A8-4CEA-BF5D-D1D333E2C87B}.Debug-x64|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F247482-A4A8-4CEA-BF5D-D1D333E2C87B}.Debug-x64|Any CPU.Build.0 = Debug|Any CPU
+		{0F247482-A4A8-4CEA-BF5D-D1D333E2C87B}.Debug-x64|x64.ActiveCfg = Debug|Any CPU
+		{0F247482-A4A8-4CEA-BF5D-D1D333E2C87B}.Debug-x64|x64.Build.0 = Debug|Any CPU
+		{0F247482-A4A8-4CEA-BF5D-D1D333E2C87B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F247482-A4A8-4CEA-BF5D-D1D333E2C87B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F247482-A4A8-4CEA-BF5D-D1D333E2C87B}.Release|x64.ActiveCfg = Release|Any CPU
+		{0F247482-A4A8-4CEA-BF5D-D1D333E2C87B}.Release|x64.Build.0 = Release|Any CPU
+		{0F247482-A4A8-4CEA-BF5D-D1D333E2C87B}.Release-x64|Any CPU.ActiveCfg = Release|Any CPU
+		{0F247482-A4A8-4CEA-BF5D-D1D333E2C87B}.Release-x64|Any CPU.Build.0 = Release|Any CPU
+		{0F247482-A4A8-4CEA-BF5D-D1D333E2C87B}.Release-x64|x64.ActiveCfg = Release|Any CPU
+		{0F247482-A4A8-4CEA-BF5D-D1D333E2C87B}.Release-x64|x64.Build.0 = Release|Any CPU
+		{FF39368D-86A4-4100-A42A-5343F7392DE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF39368D-86A4-4100-A42A-5343F7392DE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF39368D-86A4-4100-A42A-5343F7392DE6}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{FF39368D-86A4-4100-A42A-5343F7392DE6}.Debug|x64.Build.0 = Debug|Any CPU
+		{FF39368D-86A4-4100-A42A-5343F7392DE6}.Debug-x64|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF39368D-86A4-4100-A42A-5343F7392DE6}.Debug-x64|Any CPU.Build.0 = Debug|Any CPU
+		{FF39368D-86A4-4100-A42A-5343F7392DE6}.Debug-x64|x64.ActiveCfg = Debug|Any CPU
+		{FF39368D-86A4-4100-A42A-5343F7392DE6}.Debug-x64|x64.Build.0 = Debug|Any CPU
+		{FF39368D-86A4-4100-A42A-5343F7392DE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF39368D-86A4-4100-A42A-5343F7392DE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF39368D-86A4-4100-A42A-5343F7392DE6}.Release|x64.ActiveCfg = Release|Any CPU
+		{FF39368D-86A4-4100-A42A-5343F7392DE6}.Release|x64.Build.0 = Release|Any CPU
+		{FF39368D-86A4-4100-A42A-5343F7392DE6}.Release-x64|Any CPU.ActiveCfg = Release|Any CPU
+		{FF39368D-86A4-4100-A42A-5343F7392DE6}.Release-x64|Any CPU.Build.0 = Release|Any CPU
+		{FF39368D-86A4-4100-A42A-5343F7392DE6}.Release-x64|x64.ActiveCfg = Release|Any CPU
+		{FF39368D-86A4-4100-A42A-5343F7392DE6}.Release-x64|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {56F3DFFA-41A2-47AC-A848-02527A09C75E}
 	EndGlobalSection
 EndGlobal

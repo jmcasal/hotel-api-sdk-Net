@@ -9,3 +9,11 @@ D:\Projects\Multinucleo\OneDrive\hotel-api-sdk\hotel-api-model\bin\Debug\Newtons
 D:\Projects\Multinucleo\OneDrive\hotel-api-sdk\hotel-api-model\obj\Debug\hotel-api-model.csprojResolveAssemblyReference.cache
 D:\Projects\Multinucleo\OneDrive\hotel-api-sdk\hotel-api-model\obj\Debug\com.hotelbeds.distribution.hotel_api_model.dll
 D:\Projects\Multinucleo\OneDrive\hotel-api-sdk\hotel-api-model\obj\Debug\com.hotelbeds.distribution.hotel_api_model.pdb
+D:\P\19\22-GLUE-HOTELBEDS\github\sdk-core\hotel-api-model\bin\Debug\com.hotelbeds.distribution.hotel_api_model.dll
+D:\P\19\22-GLUE-HOTELBEDS\github\sdk-core\hotel-api-model\bin\Debug\com.hotelbeds.distribution.hotel_api_model.pdb
+D:\P\19\22-GLUE-HOTELBEDS\github\sdk-core\hotel-api-model\bin\Debug\Newtonsoft.Json.dll
+D:\P\19\22-GLUE-HOTELBEDS\github\sdk-core\hotel-api-model\bin\Debug\Newtonsoft.Json.xml
+D:\P\19\22-GLUE-HOTELBEDS\github\sdk-core\hotel-api-model\obj\Debug\hotel-api-model.csproj.CoreCompileInputs.cache
+D:\P\19\22-GLUE-HOTELBEDS\github\sdk-core\hotel-api-model\obj\Debug\hotel-api-model.csproj.CopyComplete
+D:\P\19\22-GLUE-HOTELBEDS\github\sdk-core\hotel-api-model\obj\Debug\com.hotelbeds.distribution.hotel_api_model.dll
+D:\P\19\22-GLUE-HOTELBEDS\github\sdk-core\hotel-api-model\obj\Debug\com.hotelbeds.distribution.hotel_api_model.pdb
