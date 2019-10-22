@@ -6,14 +6,17 @@
     <Version>0.1.0</Version>
     <Description>port to .netcore of the hotelbeds api hotel-api-sdk</Description>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Copyright>https://github.com/jmcasal/hotel-api-sdk-net-core</Copyright>
+    <PackageLicenseUrl>https://github.com/jmcasal/hotel-api-sdk-net-core/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/jmcasal/hotel-api-sdk-net-core</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/jmcasal/hotel-api-sdk-net-core</RepositoryUrl>
+    <PackageReleaseNotes>Hotelbeds SDK for NET is a set of utilities whose main goal is to help in the development of NET applications that use APItude, the Hotelbeds API. This is a nuget package available on nuget.org repository.</PackageReleaseNotes>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Authors>JM Casal</Authors>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.6.0" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\ClassLibrary1\hotel-api-model-core.csproj" />
   </ItemGroup>
 
 </Project>

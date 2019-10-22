@@ -1,8 +1,0 @@
-<Project Sdk="Microsoft.NET.Sdk">
-
-  <PropertyGroup>
-    <TargetFramework>netcoreapp2.1</TargetFramework>
-    <RootNamespace>hotel_api_sdk_demo_core</RootNamespace>
-  </PropertyGroup>
-
-</Project>
