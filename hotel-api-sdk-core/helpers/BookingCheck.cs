@@ -4,9 +4,9 @@ using System.Collections.Generic;
 using com.hotelbeds.distribution.hotel_api_model.auto.messages;
 using com.hotelbeds.distribution.hotel_api_model.auto.model;
 using com.hotelbeds.distribution.hotel_api_model.auto.common;
-using com.hotelbeds.distribution.hotel_api_sdk.types;
+using com.hotelbeds.distribution.hotel_api_sdk_core.types;
 
-namespace com.hotelbeds.distribution.hotel_api_sdk.helpers
+namespace com.hotelbeds.distribution.hotel_api_sdk_core.helpers
 {
     public class BookingCheck
     {

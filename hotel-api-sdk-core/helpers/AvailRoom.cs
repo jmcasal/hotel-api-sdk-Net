@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace com.hotelbeds.distribution.hotel_api_sdk.helpers
+namespace com.hotelbeds.distribution.hotel_api_sdk_core.helpers
 {
     public class AvailRoom
     {

@@ -7,7 +7,7 @@ using com.hotelbeds.distribution.hotel_api_model.auto.messages;
 using com.hotelbeds.distribution.hotel_api_model.auto.model;
 using com.hotelbeds.distribution.hotel_api_model.util;
 
-namespace com.hotelbeds.distribution.hotel_api_sdk.helpers
+namespace com.hotelbeds.distribution.hotel_api_sdk_core.helpers
 {
     public class Availability
     {

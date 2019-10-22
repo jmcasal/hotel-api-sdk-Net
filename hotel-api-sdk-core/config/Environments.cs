@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Configuration;
 
-namespace com.hotelbeds.distribution.hotel_api_sdk.config
+namespace com.hotelbeds.distribution.hotel_api_sdk_core.config
 {
     public class EnvironmentsSection : ConfigurationSection
     {

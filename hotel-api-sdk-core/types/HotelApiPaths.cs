@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Net.Http;
 
-namespace com.hotelbeds.distribution.hotel_api_sdk.types
+namespace com.hotelbeds.distribution.hotel_api_sdk_core.types
 {
     public class HotelApiPaths
     {

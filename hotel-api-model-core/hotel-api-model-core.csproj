@@ -3,10 +3,26 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
     <RootNamespace>hotel_api_model_core</RootNamespace>
+    <Version>0.1.0</Version>
+    <Authors>JM Casal</Authors>
+    <Company>JM Casal</Company>
+    <Description>port to .netcore of the hotelbeds api  hotel-api-model</Description>
+    <Copyright>https://github.com/jmcasal/hotel-api-sdk-net-core</Copyright>
+    <PackageLicenseUrl></PackageLicenseUrl>
+	<PackageLicenseFile>License.txt</PackageLicenseFile>
+    <PackageProjectUrl>https://github.com/jmcasal/hotel-api-sdk-net-core</PackageProjectUrl>
+    <PackageReleaseNotes>Hotelbeds SDK for NET is a set of utilities whose main goal is to help in the development of NET applications that use APItude, the Hotelbeds API. This is a nuget package available on nuget.org repository.</PackageReleaseNotes>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="License.txt" Pack="true" Visible="false" PackagePath="">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>
