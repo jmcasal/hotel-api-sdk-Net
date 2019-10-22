@@ -1,4 +1,4 @@
-# hotel-api-sdk-Net
+# hotel-api-sdk-Net-Core
 
 ## Introduction 
 Hotelbeds SDK for NET is a set of utilities whose main goal is to help in the development of NET applications that use APItude, the Hotelbeds API.
